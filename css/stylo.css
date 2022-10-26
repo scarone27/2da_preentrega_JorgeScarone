@@ -4,19 +4,23 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
-nav header :hover{
-    border-bottom: solid 1rem orange;
+header :hover{
+    border-bottom: solid 1px orange;
 }
-
+header{
+    background-color: black;
+    color: antiquewhite;
+}
 
 body{
     background-color: gray;
 
 }
 .titulo1{
-    font-size: 50px;
+    font-size: 100px;
     padding: 20px 20px;
     margin-bottom: 40px;
+    color: orange;
     text-align: center;
     animation-duration: 4s;
     animation-name: aparecer;
@@ -31,23 +35,13 @@ body{
         opacity: 1;
     }
 }
-animate__shakeX
 
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: black;
-    gap: 2rem;
-    justify-content: center;
-}
-.grid-container1{
-    display: grid;
-    grid-template-columns: (2, 2fr)
-    grid-template-rows: 1;
-    gap 20px;
-}
+
 .flex-index{
     display: flex;
+    flex: row;
+    background-color: black;
+
 }
 
 footer{
