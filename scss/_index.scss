@@ -9,3 +9,11 @@
     gap: 5rem;
 
 }
+.section-index{
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+        h1{
+            width: 90%;
+        }
+}

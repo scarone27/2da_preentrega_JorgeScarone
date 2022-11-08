@@ -5,7 +5,7 @@
 }
 
 header nav ul li :hover {
-  border-bottom: solid 1px orange;
+  border-bottom: solid 1px rgb(211, 102, 0);
 }
 
 footer {
@@ -37,6 +37,9 @@ footer a {
 .img_footer {
   width: 90px;
 }
+.img_footer :hover {
+  border-radius: 1px orange;
+}
 
 .p_footer {
   text-align: center;
@@ -49,10 +52,10 @@ body {
 h1 {
   display: flex;
   justify-content: center;
+  font-size: 3em;
   width: 100%;
-  padding: 20px 20px;
   margin-bottom: 1rem;
-  color: orange;
+  color: rgb(234, 173, 5);
   text-align: center;
   -webkit-animation-duration: 4s;
           animation-duration: 4s;
@@ -109,6 +112,15 @@ h2 {
   background-color: #faf0e4;
   justify-content: space-around;
   gap: 5rem;
+}
+
+.section-index {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.section-index h1 {
+  width: 90%;
 }
 
 .contenido_contactanos {
@@ -195,11 +207,9 @@ div .videos3x3 {
 .titulo_clientes {
   padding: 20px;
   margin: 20px;
-  background-color: black;
   text-align: center;
   -webkit-text-decoration: solid;
           text-decoration: solid;
-  color: antiquewhite;
 }
 
 .texto_clientes {
@@ -208,5 +218,31 @@ div .videos3x3 {
   text-align: center;
   -webkit-text-decoration: solid;
           text-decoration: solid;
-  color: antiquewhite;
+  color: black;
+}
+
+@media screen and (max-width: 480px) {
+  .formulario {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .formulario_ {
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    text-align: end;
+  }
+  h1 {
+    margin-bottom: 20px;
+    color: red;
+    width: 100%;
+    justify-content: space-around;
+  }
 }/*# sourceMappingURL=main.css.map */
