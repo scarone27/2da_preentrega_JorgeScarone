@@ -1,0 +1,10 @@
+
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 1rem;
+    margin-top: 2rem;
+    justify-content: space-around;
+}

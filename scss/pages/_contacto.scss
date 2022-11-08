@@ -1,0 +1,44 @@
+.contenido_contactanos{
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    padding: 20px 20px;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 2px solid whitesmoke;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+.titulo_formulario{
+    margin-bottom: 20px;
+    color: red;
+}
+.formulario{
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    padding: 20px 20px;
+    width: 100%;
+    border: 2px solid whitesmoke;
+    align-items: center;
+    margin-bottom: 2rem;
+
+
+}
+
+.formulario_{
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    margin-left: 130px;
+    padding: 20px 20px;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    border: 2px solid whitesmoke;
+    text-align: end;
+}

@@ -1,0 +1,116 @@
+@import 'variables';
+
+header {
+    nav {
+        ul{
+            li{
+                :hover{
+                    border-bottom: solid 1px orange;
+                }
+
+                }
+            }
+        }
+    }
+
+
+
+
+footer {
+    color: whitesmoke;
+    background-color: black;
+    width: 100%;
+
+    div {
+        font-size: 2rem;
+        color: antiquewhite;
+    }
+
+    ul {
+        list-style-type: none;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+        display: flex
+    }
+
+    li {
+        list-style-type: none;
+        padding: 0 2rem;
+        margin-bottom: 2rem;
+    }
+
+    a {
+        font-size: 2rem;
+        color: antiquewhite;
+    }
+
+
+}
+
+.img_footer {
+    width: 90px;
+}
+
+.p_footer {
+    text-align: center;
+}
+
+body {
+    background-color: $bodycolor;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    padding: 20px 20px;
+    margin-bottom: 1rem;
+    color: orange;
+    text-align: center;
+    animation-duration: 4s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+
+}
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    padding: 20px 20px;
+    margin-bottom: 1rem;
+    color: rgb(90, 72, 38);
+    text-align: center;
+    animation-duration: 4s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+
+}
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+
+}
+

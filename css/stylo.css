@@ -237,7 +237,7 @@ a{font-size: 14px;
         color: antiquewhite;
         display: flex;
         margin: 5px;
-        padding: 5px
+        padding: 5px;
         width: 100%;
         flex-direction: column;
         flex-wrap: wrap;
