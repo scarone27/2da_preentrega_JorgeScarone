@@ -6,20 +6,24 @@
 .titulo_clientes{
 
     padding: 20px;
-    margin: 20px;
+    width: 100%;
+
     text-align: center;
     text-decoration: solid;
 
 }
-.texto_clientes{
-
-    padding: 20px;
-    margin: 20px;
-
-    text-align: center;
-    text-decoration: solid;
-    color: black
+.texto-clientes{
+    p{
+    margin-bottom: 2rem;
 }
+}
+
+.calesita{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 
 

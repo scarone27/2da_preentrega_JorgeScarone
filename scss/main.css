@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+header nav {
+  width: 100%;
+}
 header nav ul li :hover {
   border-bottom: solid 1px rgb(211, 102, 0);
 }
@@ -12,6 +15,7 @@ footer {
   color: whitesmoke;
   background-color: black;
   width: 100%;
+  margin-top: 1rem;
 }
 footer div {
   font-size: 2rem;
@@ -51,7 +55,7 @@ body {
 
 h1 {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   font-size: 3em;
   width: 100%;
   margin-bottom: 1rem;
@@ -63,6 +67,7 @@ h1 {
           animation-name: aparecer;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+  height: 10rem;
 }
 
 @-webkit-keyframes aparecer {
@@ -112,15 +117,23 @@ h2 {
   background-color: #faf0e4;
   justify-content: space-around;
   gap: 5rem;
+  margin-bottom: 5rem;
 }
 
 .section-index {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  min-height: auto;
+  height: 20rem;
+  align-items: center;
+  margin-top: 4rem;
 }
-.section-index h1 {
-  width: 90%;
+
+.titulo1 {
+  font-weight: 100;
+  font-size: 20ex;
+  margin-bottom: 5rem;
 }
 
 .contenido_contactanos {
@@ -132,9 +145,10 @@ h2 {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  border: 2px solid whitesmoke;
-  margin-bottom: 2rem;
+  border: 2px solid black;
+  margin-bottom: 2rem black;
   margin-top: 2rem;
+  text-align: end;
 }
 
 .titulo_formulario {
@@ -149,23 +163,27 @@ h2 {
   display: flex;
   padding: 20px 20px;
   width: 100%;
-  border: 2px solid whitesmoke;
+  border: 2px solid black;
   align-items: center;
   margin-bottom: 2rem;
+  text-align: end;
+}
+
+fieldset {
+  border: solid 2px black;
 }
 
 .formulario_ {
   background-color: rgba(62, 56, 56, 0.212);
   color: black;
   display: flex;
-  margin-left: 130px;
-  padding: 20px 20px;
+  padding: 2rem;
   width: 100%;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: flex-end;
-  border: 2px solid whitesmoke;
-  text-align: end;
+  border: 2px solid black;
+  text-align: justify;
 }
 
 .h2_videos3x3 {
@@ -173,6 +191,17 @@ h2 {
   text-align: center;
   font-size: 5rem;
   margin-bottom: 30px;
+}
+
+main div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  width: 100%;
+  text-align: center;
 }
 
 div .videos3x3 {
@@ -188,6 +217,12 @@ div .videos3x3 {
   display: flex;
   justify-content: center;
   background-color: black;
+  width: 100%;
+}
+
+.titulo3x3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .productos {
@@ -206,19 +241,20 @@ div .videos3x3 {
 
 .titulo_clientes {
   padding: 20px;
-  margin: 20px;
+  width: 100%;
   text-align: center;
   -webkit-text-decoration: solid;
           text-decoration: solid;
 }
 
-.texto_clientes {
-  padding: 20px;
-  margin: 20px;
-  text-align: center;
-  -webkit-text-decoration: solid;
-          text-decoration: solid;
-  color: black;
+.texto-clientes p {
+  margin-bottom: 2rem;
+}
+
+.calesita {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 480px) {
@@ -244,5 +280,10 @@ div .videos3x3 {
     color: red;
     width: 100%;
     justify-content: space-around;
+  }
+  .titulo1 {
+    font-weight: 500;
+    font-size: 3em;
+    margin-bottom: 5rem;
   }
 }/*# sourceMappingURL=main.css.map */
