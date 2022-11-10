@@ -7,4 +7,10 @@
     padding: 1rem;
     margin-top: 2rem;
     justify-content: space-around;
+    div{
+        img:hover{
+            transition: 2s;
+            transform: scale(120%);
+        }
+    }
 }

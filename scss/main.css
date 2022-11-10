@@ -233,6 +233,10 @@ div .videos3x3 {
   margin-top: 2rem;
   justify-content: space-around;
 }
+.productos div img:hover {
+  transition: 2s;
+  transform: scale(120%);
+}
 
 .flex_clientes {
   display: flex;
