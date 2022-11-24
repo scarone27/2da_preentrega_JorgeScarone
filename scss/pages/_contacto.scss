@@ -1,51 +1,7 @@
-.contenido_contactanos{
-    background-color: $contactocolor;
-    color: $letracontacto;
+.flex-contactos{
     display: flex;
-    padding: 20px 20px;
-    width: 100%;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items:center;
-    border: 2px solid black;
-    margin-bottom: 2rem black;
-    margin-top: 2rem;
-    text-align: end;
-    
-    
-
+    background-color: white;
 }
-.titulo_formulario{
-    margin-bottom: 20px;
-    color: red;
-    width: 100%;
-}
-.formulario{
-    background-color: $contactocolor;
-    color: $letracontacto;
-    display: flex;
-    padding: 20px 20px;
-    width: 100%;
-    border: 2px solid black;
-    align-items: center;
-    margin-bottom: 2rem;
-    text-align: end;
-
-
-}
-fieldset{
-    border: solid 2px black;
-}
-
-.formulario_{
-    background-color: $contactocolor;
-    color: $letracontacto;
-    display: flex;
-    padding: 2rem;
-    width: 100%;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items:flex-end;
-    border: 2px solid black;
-    text-align:justify;
+.form-label{
+    color: $colorh1;
 }

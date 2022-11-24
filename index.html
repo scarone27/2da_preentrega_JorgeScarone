@@ -14,12 +14,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="./scss/main.css">
 </head>
 
-<body>
+<body class="cuerpo">
     <!--navegador de bootstrap-->
     <header>
+        <h1 class="titulo1"> GPC BASKETBALL </h1>
+
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">GPC Indumentaria deportiva</a>
@@ -53,45 +55,39 @@
     </header>
     <main>
         <!---NAVEGADOR DE BOOTRAP-->
-        <section class="section-index">
-            <!--ESTE H1 LO VOY A REEMPLAZAR LUEGO POR UN BANNER-->
-            <h1 class="titulo1"> GPC INDUMENTARIA </h1>
-        </section>
-        <section>
-            <div id="carouselExampleControls" class="carousel-slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="foto.index" src="./assets/imagenes/index/index1.jpg" class="d-block w-100" alt="...">
+        <section class="papacuadrado">
+            <h2>QUIENES SOMOS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur a quis architecto impedit sequi quos eligendi quasi iste nisi adipisci eum fugiat officia perferendis esse explicabo, sit placeat perspiciatis aliquam recusandae illo aut soluta! Similique quibusdam at nemo, odio ab consequuntur cum atque omnis praesentium et, vel quas voluptate debitis.</p>
+            <div class="cuadradito">
+                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/imagenes/index/index1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/imagenes/index/index2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/imagenes/index/index4.jpg" class="d-block w-100" alt="...">
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img class="foto.index" src="./assets/imagenes/index/index2.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="foto.index" src="./assets/imagenes/index/index3.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="foto.index" src="./assets/imagenes/index/index4.jpg" class="d-block w-100" alt="...">
-                    </div>
-
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
-
-
-
         </section>
+        <h2>ULTIMAS NOVEDADES</h2>
 
         <section class="flex-index">
-            <div class="card" style="width: 18rem; margin: 5px;">
+            <div class="card" style="width: 18rem; ;">
                 <img src="./assets/imagenes/index/card1.jpg" class="card-img-top" alt="basket en la plaza">
                 <div class="card-body">
                     <h5 class="card-title">sabado de accion en merlo</h5>
@@ -100,7 +96,7 @@
                     <a href="./pages/basket3x3.html" class="btn btn-primary">ver mas</a>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;; margin: 5px;">
+            <div class="card" style="width: 18rem;; ;">
                 <img src="./assets/imagenes/index/card2.jpg" class="card-img-top" alt="fecha 4 del torneo">
                 <div class="card-body">
                     <h5 class="card-title">GPC TE DA ALAS</h5>
@@ -109,7 +105,7 @@
                     <a href="./pages/basket3x3.html" class="btn btn-primary"> ver mas</a>
                 </div>
             </div>
-            <div class="card" style="width: 18rem; margin: 5px;">
+            <div class="card" style="width: 18rem; ;">
                 <img src="./assets/imagenes/index/card3.jpg" class="card-img-top" alt="quienes somos">
                 <div class="card-body">
                     <h5 class="card-title">conocenos un poco mas</h5>
@@ -117,7 +113,7 @@
                     <a href="./pages/contactanos.html" class="btn btn-primary">mas sobre la movida</a>
                 </div>
             </div>
-            <div class="card" style="width: 18rem; margin: 5px;">
+            <div class="card" style="width: 18rem;">
                 <img src="./assets/imagenes/index/card4.jpg" class="card-img-top" alt="clientes en accion">
                 <div class="card-body">
                     <h5 class="card-title">Nos encanta verlos en accion</h5>
@@ -130,49 +126,50 @@
 
         </section>
     </main>
+    <footer>
+        <div class="footer">
+            <ul class="flex-row">
+                <li><a href="./index.html">inicio</a></li>
+                <li><a href="./pages/basket3x3.html" class="active">basket3x3</a></li>
+                <li><a href="./pages/clientes.html" class="active">clientes</a></li>
+                <li><a href="./pages/contactanos.html" class="active">contacto</a></li>
+                <li><a href="./pages/nuestrosproductos.html" class="active">productos</a></li>
+
+            </ul>
+            <ul class="flex-row">
+                <li>
+
+                    <a href="https://www.instagram.com/gpc_indumentaria/"><img class="img_footer"
+                            src="../assets/imagenes/img-footer/logo-ig.png" alt="link acceso instagram"></a>
+                </li>
+                <li><a href="https://es-la.facebook.com/gpcindumentaria/">
+                        <img class="img_footer" src="./assets/imagenes/img-footer/logo-fb.png"
+                            alt="link acceso facebook"></a>
+                </li>
+                <li><a href="http://twitter.com">
+                        <img class="img_footer" src="./assets/imagenes/img-footer/logo-tw.png"
+                            alt="link de acceso twitter"></a>
+                </li>
+                <li><a href="https://web.whatsapp.com/">
+                        <img class="img_footer" src="./assets/imagenes/img-footer/logo-wh.png"
+                            alt="link de acceso a whatsapp"></a>
+                </li>
+                <li><a href="http://youtube.com">
+                        <img class="img_footer" src="./assets/imagenes/img-footer/logo-yt.png"
+                            alt="link de acceso a YouTube"></a>
+                </li>
+            </ul>
+            <p class="p_footer">&copy; GPC INDUMENTARIA 2022</p>
+            </ul>
+        </div>
+
+    </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
 </body>
-<footer>
-    <div class="footer">
-        <ul class="flex-row">
-            <li><a href="./index.html">inicio</a></li>
-            <li><a href="./pages/basket3x3.html" class="active">basket3x3</a></li>
-            <li><a href="./pages/clientes.html" class="active">clientes</a></li>
-            <li><a href="./pages/contactanos.html" class="active">contacto</a></li>
-            <li><a href="./pages/nuestrosproductos.html" class="active">productos</a></li>
-
-        </ul>
-        <ul class="flex-row">
-            <li>
-
-                <a href="https://www.instagram.com/gpc_indumentaria/"><img class="img_footer"
-                        src="../assets/imagenes/img-footer/logo-ig.png" alt="link acceso instagram"></a>
-            </li>
-            <li><a href="https://es-la.facebook.com/gpcindumentaria/">
-                    <img class="img_footer" src="./assets/imagenes/img-footer/logo-fb.png"
-                        alt="link acceso facebook"></a>
-            </li>
-            <li><a href="http://twitter.com">
-                    <img class="img_footer" src="./assets/imagenes/img-footer/logo-tw.png"
-                        alt="link de acceso twitter"></a>
-            </li>
-            <li><a href="https://web.whatsapp.com/">
-                    <img class="img_footer" src="./assets/imagenes/img-footer/logo-wh.png"
-                        alt="link de acceso a whatsapp"></a>
-            </li>
-            <li><a href="http://youtube.com">
-                    <img class="img_footer" src="./assets/imagenes/img-footer/logo-yt.png"
-                        alt="link de acceso a YouTube"></a>
-            </li>
-        </ul>
-        <p class="p_footer">&copy; GPC INDUMENTARIA 2022</p>
-        </ul>
-    </div>
-
-</footer>
 
 
 </html>
