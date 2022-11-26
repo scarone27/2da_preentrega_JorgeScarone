@@ -1,6 +1,8 @@
 .flex-contactos{
     display: flex;
-    background-color: white;
+    flex-wrap: wrap;
+    padding: 1rem;
+
 }
 .form-label{
     color: $colorh1;

@@ -43,7 +43,7 @@ footer a {
 }
 
 .img_footer {
-  width: 90px;
+  width: 3rem;
 }
 .img_footer :hover {
   border-radius: 1px orange;
@@ -118,6 +118,11 @@ h2 {
     opacity: 2;
   }
 }
+p {
+  color: rgb(234, 173, 5);
+}
+
+@impor @import "variables";
 .section-index {
   display: flex;
   flex-wrap: wrap;
@@ -137,6 +142,10 @@ h2 {
   border-color: rgb(234, 173, 5);
 }
 
+section p {
+  color: white;
+}
+
 .flex-talles {
   width: 100%;
   background-color: rgb(0, 0, 0);
@@ -148,54 +157,14 @@ h2 {
   width: 30%;
 }
 
-.contenido_contactanos {
-  background-color: rgba(62, 56, 56, 0.212);
-  color: black;
+.flex-contactos {
   display: flex;
-  padding: 20px 20px;
-  width: 100%;
-  flex-direction: column;
   flex-wrap: wrap;
-  align-items: center;
-  border: 2px solid black;
-  margin-bottom: 2rem black;
-  margin-top: 2rem;
-  text-align: end;
+  padding: 1rem;
 }
 
-.titulo_formulario {
-  margin-bottom: 20px;
-  color: red;
-  width: 100%;
-}
-
-.formulario {
-  background-color: rgba(62, 56, 56, 0.212);
-  color: black;
-  display: flex;
-  padding: 20px 20px;
-  width: 100%;
-  border: 2px solid black;
-  align-items: center;
-  margin-bottom: 2rem;
-  text-align: end;
-}
-
-fieldset {
-  border: solid 2px black;
-}
-
-.formulario_ {
-  background-color: rgba(62, 56, 56, 0.212);
-  color: black;
-  display: flex;
-  padding: 2rem;
-  width: 100%;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  border: 2px solid black;
-  text-align: justify;
+.form-label {
+  color: rgb(234, 173, 5);
 }
 
 .h2_videos3x3 {
@@ -324,5 +293,12 @@ div .videos3x3 {
   }
   .flex-talles img {
     width: 100%;
+  }
+  .img_footer {
+    display: none;
+    width: 1rem;
+  }
+  .img_footer :hover {
+    border-radius: 1px orange;
   }
 }/*# sourceMappingURL=main.css.map */
